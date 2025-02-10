@@ -1,5 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue'
 import { useI18n } from "vue-i18n";
 import { ref } from "vue";
 
@@ -11,15 +12,11 @@ const switchLang = () => {
 </script>
 
 <template>
-  <header>
+  <NavBar />
     <div>
       <button @click="switchLang">🌍 {{ locale === "fr" ? "EN" : "FR" }}</button>
     </div>
     <div>
       <HelloWorld :msg="t('welcome')"/>
     </div>
-  </header>
-
-  <main>
-  </main>
 </template>
