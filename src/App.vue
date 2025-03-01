@@ -9,9 +9,9 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <NavBar />
-    <div>
-    </div>
+  <div class="intro">
+    <NavBar />
+  </div>
     <div>
       <HelloWorld :msg="t('welcome')"/>
     </div>

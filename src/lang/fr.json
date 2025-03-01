@@ -1,3 +1,9 @@
 {
-  "welcome": "Bienvenue sur mon portfolio"
+  "welcome": "Bienvenue sur mon portfolio",
+  "Navbar": {
+    "Home": "Accueil",
+    "About": "À propos",
+    "Projects": "Projets",
+    "Contact": "Contact"
+  }
 }

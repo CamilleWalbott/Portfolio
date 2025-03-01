@@ -3,3 +3,10 @@
 @import "tailwindcss/utilities";
 @import "flowbite";
 
+html{
+    font-family: Inter, sans-serif;
+}
+.intro {
+    background-image: url("../assets/img/code-picture.jpg");
+    height: 70vh;
+}
