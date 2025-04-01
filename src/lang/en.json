@@ -5,5 +5,10 @@
         "About": "About",
         "Projects": "Projects",
         "Contact": "Contact"
-    }
+    },
+  "Intro": {
+    "Title": "Full Stack Web Developer",
+    "Subtitle": "Together, let's build a custom project that truly fits you, a solution tailored to your needs.",
+    "Button": "Contact me"
+  }
 }

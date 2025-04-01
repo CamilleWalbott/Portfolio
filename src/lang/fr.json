@@ -5,5 +5,10 @@
     "About": "À propos",
     "Projects": "Projets",
     "Contact": "Contact"
+  },
+  "Intro" : {
+    "Title": "Développeuse Web Full Stack",
+    "Subtitle": "Construisons ensemble un projet sur mesure qui vous correspond, une solution adaptée à vos besoins.",
+    "Button": "Me contacter"
   }
 }
