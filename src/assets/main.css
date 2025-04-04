@@ -5,6 +5,8 @@
 
 html{
     font-family: Inter, sans-serif;
+    background-color: #383838;
+    min-height: 100vh;
 }
 .intro {
     background-image: url("../assets/img/code-picture.jpg");
