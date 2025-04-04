@@ -10,5 +10,14 @@ html{
 }
 .intro {
     background-image: url("../assets/img/code-picture.jpg");
-    height: 70vh;
+    height: 80vh;
+    clip-path: polygon(0 0, 0 75%, 50% 100%, 100% 75%, 100% 0);
+}
+
+@media (max-width: 768px) {
+    .intro {
+        height: 65vh;
+        clip-path: polygon(0 0, 0 90%, 50% 100%, 100% 90%, 100% 0);
+
+    }
 }
